@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31E4788817EE895D00DFE302 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31E4788717EE895D00DFE302 /* Cocoa.framework */; };
+		31E4789217EE895D00DFE302 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 31E4789017EE895D00DFE302 /* InfoPlist.strings */; };
+		31E4789417EE895E00DFE302 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E4789317EE895D00DFE302 /* main.m */; };
+		31E4789817EE895E00DFE302 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 31E4789617EE895E00DFE302 /* Credits.rtf */; };
+		31E4789B17EE895E00DFE302 /* PRHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E4789A17EE895E00DFE302 /* PRHAppDelegate.m */; };
+		31E4789E17EE895E00DFE302 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31E4789C17EE895E00DFE302 /* MainMenu.xib */; };
+		31E478A617EE89A100DFE302 /* NSView+PRHDrawWithASCII.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E478A517EE89A100DFE302 /* NSView+PRHDrawWithASCII.m */; };
+		31E478A917EE8A3200DFE302 /* NSBezierPath+PRHDrawWithASCII.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E478A817EE8A3200DFE302 /* NSBezierPath+PRHDrawWithASCII.m */; };
+		31E478AC17EE8A7000DFE302 /* PRHDemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E478AB17EE8A7000DFE302 /* PRHDemoView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		31E4788417EE895D00DFE302 /* PRHDrawWithASCII.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PRHDrawWithASCII.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31E4788717EE895D00DFE302 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		31E4788A17EE895D00DFE302 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		31E4788B17EE895D00DFE302 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		31E4788C17EE895D00DFE302 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		31E4788F17EE895D00DFE302 /* PRHDrawWithASCII-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PRHDrawWithASCII-Info.plist"; sourceTree = "<group>"; };
+		31E4789117EE895D00DFE302 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		31E4789317EE895D00DFE302 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		31E4789517EE895E00DFE302 /* PRHDrawWithASCII-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PRHDrawWithASCII-Prefix.pch"; sourceTree = "<group>"; };
+		31E4789717EE895E00DFE302 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		31E4789917EE895E00DFE302 /* PRHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PRHAppDelegate.h; sourceTree = "<group>"; };
+		31E4789A17EE895E00DFE302 /* PRHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PRHAppDelegate.m; sourceTree = "<group>"; };
+		31E4789D17EE895E00DFE302 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		31E478A417EE89A100DFE302 /* NSView+PRHDrawWithASCII.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSView+PRHDrawWithASCII.h"; sourceTree = "<group>"; };
+		31E478A517EE89A100DFE302 /* NSView+PRHDrawWithASCII.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSView+PRHDrawWithASCII.m"; sourceTree = "<group>"; };
+		31E478A717EE8A3200DFE302 /* NSBezierPath+PRHDrawWithASCII.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBezierPath+PRHDrawWithASCII.h"; sourceTree = "<group>"; };
+		31E478A817EE8A3200DFE302 /* NSBezierPath+PRHDrawWithASCII.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBezierPath+PRHDrawWithASCII.m"; sourceTree = "<group>"; };
+		31E478AA17EE8A7000DFE302 /* PRHDemoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRHDemoView.h; sourceTree = "<group>"; };
+		31E478AB17EE8A7000DFE302 /* PRHDemoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRHDemoView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31E4788117EE895D00DFE302 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31E4788817EE895D00DFE302 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31E4787B17EE895D00DFE302 = {
+			isa = PBXGroup;
+			children = (
+				31E478A417EE89A100DFE302 /* NSView+PRHDrawWithASCII.h */,
+				31E478A517EE89A100DFE302 /* NSView+PRHDrawWithASCII.m */,
+				31E478A717EE8A3200DFE302 /* NSBezierPath+PRHDrawWithASCII.h */,
+				31E478A817EE8A3200DFE302 /* NSBezierPath+PRHDrawWithASCII.m */,
+				31E4788D17EE895D00DFE302 /* PRHDrawWithASCII */,
+				31E4788617EE895D00DFE302 /* Frameworks */,
+				31E4788517EE895D00DFE302 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31E4788517EE895D00DFE302 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31E4788417EE895D00DFE302 /* PRHDrawWithASCII.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31E4788617EE895D00DFE302 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31E4788717EE895D00DFE302 /* Cocoa.framework */,
+				31E4788917EE895D00DFE302 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		31E4788917EE895D00DFE302 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31E4788A17EE895D00DFE302 /* AppKit.framework */,
+				31E4788B17EE895D00DFE302 /* CoreData.framework */,
+				31E4788C17EE895D00DFE302 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		31E4788D17EE895D00DFE302 /* PRHDrawWithASCII */ = {
+			isa = PBXGroup;
+			children = (
+				31E4789917EE895E00DFE302 /* PRHAppDelegate.h */,
+				31E4789A17EE895E00DFE302 /* PRHAppDelegate.m */,
+				31E478AA17EE8A7000DFE302 /* PRHDemoView.h */,
+				31E478AB17EE8A7000DFE302 /* PRHDemoView.m */,
+				31E4789C17EE895E00DFE302 /* MainMenu.xib */,
+				31E4788E17EE895D00DFE302 /* Supporting Files */,
+			);
+			path = PRHDrawWithASCII;
+			sourceTree = "<group>";
+		};
+		31E4788E17EE895D00DFE302 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				31E4788F17EE895D00DFE302 /* PRHDrawWithASCII-Info.plist */,
+				31E4789017EE895D00DFE302 /* InfoPlist.strings */,
+				31E4789317EE895D00DFE302 /* main.m */,
+				31E4789517EE895E00DFE302 /* PRHDrawWithASCII-Prefix.pch */,
+				31E4789617EE895E00DFE302 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31E4788317EE895D00DFE302 /* PRHDrawWithASCII */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31E478A117EE895E00DFE302 /* Build configuration list for PBXNativeTarget "PRHDrawWithASCII" */;
+			buildPhases = (
+				31E4788017EE895D00DFE302 /* Sources */,
+				31E4788117EE895D00DFE302 /* Frameworks */,
+				31E4788217EE895D00DFE302 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PRHDrawWithASCII;
+			productName = PRHDrawWithASCII;
+			productReference = 31E4788417EE895D00DFE302 /* PRHDrawWithASCII.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31E4787C17EE895D00DFE302 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PRH;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Peter Hosey";
+			};
+			buildConfigurationList = 31E4787F17EE895D00DFE302 /* Build configuration list for PBXProject "PRHDrawWithASCII" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 31E4787B17EE895D00DFE302;
+			productRefGroup = 31E4788517EE895D00DFE302 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31E4788317EE895D00DFE302 /* PRHDrawWithASCII */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31E4788217EE895D00DFE302 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31E4789217EE895D00DFE302 /* InfoPlist.strings in Resources */,
+				31E4789817EE895E00DFE302 /* Credits.rtf in Resources */,
+				31E4789E17EE895E00DFE302 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31E4788017EE895D00DFE302 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31E4789417EE895E00DFE302 /* main.m in Sources */,
+				31E4789B17EE895E00DFE302 /* PRHAppDelegate.m in Sources */,
+				31E478A617EE89A100DFE302 /* NSView+PRHDrawWithASCII.m in Sources */,
+				31E478A917EE8A3200DFE302 /* NSBezierPath+PRHDrawWithASCII.m in Sources */,
+				31E478AC17EE8A7000DFE302 /* PRHDemoView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		31E4789017EE895D00DFE302 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31E4789117EE895D00DFE302 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		31E4789617EE895E00DFE302 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31E4789717EE895E00DFE302 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		31E4789C17EE895E00DFE302 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31E4789D17EE895E00DFE302 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31E4789F17EE895E00DFE302 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		31E478A017EE895E00DFE302 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		31E478A217EE895E00DFE302 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PRHDrawWithASCII/PRHDrawWithASCII-Prefix.pch";
+				INFOPLIST_FILE = "PRHDrawWithASCII/PRHDrawWithASCII-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		31E478A317EE895E00DFE302 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PRHDrawWithASCII/PRHDrawWithASCII-Prefix.pch";
+				INFOPLIST_FILE = "PRHDrawWithASCII/PRHDrawWithASCII-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31E4787F17EE895D00DFE302 /* Build configuration list for PBXProject "PRHDrawWithASCII" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31E4789F17EE895E00DFE302 /* Debug */,
+				31E478A017EE895E00DFE302 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31E478A117EE895E00DFE302 /* Build configuration list for PBXNativeTarget "PRHDrawWithASCII" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31E478A217EE895E00DFE302 /* Debug */,
+				31E478A317EE895E00DFE302 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31E4787C17EE895D00DFE302 /* Project object */;
+}
