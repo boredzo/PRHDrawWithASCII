@@ -179,17 +179,6 @@ static NSString *const circleThreeLines = @"⁀()‿";
 			self.numberOfColumns = self.horizontalLineSegmentCharacters.length + MAX(self.northeastLineSegmentCharacters.length, self.southeastLineSegmentCharacters.length) + 2;
 		if (self.numberOfRows <= 2)
 			self.numberOfRows = self.verticalLineSegmentCharacters.length + MAX(self.northeastLineSegmentCharacters.length, self.southeastLineSegmentCharacters.length) + 2;
-		NSLog(@"Key characters: %@; size in characters: %tu by %tu"
-			@"\n-: %@"
-			@"\n|: %@"
-			@"\n\\: %@"
-			@"\n/: %@",
-			self.keyCharacters, self.numberOfColumns, self.numberOfRows,
-			self.horizontalLineSegmentCharacters,
-			self.verticalLineSegmentCharacters,
-			self.southeastLineSegmentCharacters,
-			self.northeastLineSegmentCharacters
-		);
 
 		return true;
 	}
